@@ -4,7 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import SignInPage from "./auth/sign-in/signin.jsx";
-import Home from "./pages/Home.jsx";
+import Home from "./pages/home.jsx";
 import Dashboard from "./components/dashbord/dashbord.jsx";
 import { ClerkProvider } from "@clerk/clerk-react";
 import Header from "./components/header.jsx";
